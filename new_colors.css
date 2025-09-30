@@ -1,0 +1,21 @@
+.text-beige {
+    color: #F6F4EF !important;
+}
+.text-brown {
+    color: #3C2F2F;
+}
+
+.bg-beige {
+    background-color: #F6F4EF !important;
+}
+.bg-green {
+    background-color: #A4B49D !important;
+}
+
+.nav-tabs .nav-link {
+  color: #A4B49D;
+}
+
+.accordion-button {
+    background-color: #F6F4EF !important;
+}
