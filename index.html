@@ -206,18 +206,18 @@
         <section class="p-4 p-md-5 bg-beige">
             <h1 class="font-PlayfairDisplay">Оставьте заявку на консультацию</h1>
             <div class="row gap-lg-5 font-Amiko">
-                <form class="col-12 col-md-6 col-lg-5 py-2 py-md-5">
+                <form action="" class="col-12 col-md-6 col-lg-5 py-2 py-md-5">
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Ваше имя</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1">
+                        <input type="text" class="form-control" id="exampleInputEmail1" required>
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Телефон</label>
-                        <input type="number" class="form-control" id="exampleInputPassword1">
+                        <input type="tel" class="form-control" id="exampleInputPassword1" inputmode="numeric" pattern="^[0-9]{11}$" required>
                     </div>
-                    <a href="#" class="btn btn-outline-dark rounded-pill px-4">
-                            ОТПРАВИТЬ
-                    </a>
+                    <button type="submit" class="btn btn-outline-dark rounded-pill px-4">
+                        ОТПРАВИТЬ
+                    </button>
                 </form>
                 <div class="col-8 col-md-6 col-lg-4 py-3">
                     <img class="w-100" src="images/mom.png" alt="">
